@@ -13,9 +13,15 @@
 
 <br/>
 
+[Go Back ESP32-S TEST](../../../ESP32-S3_TEST.md)  
+
+<br/>
+
+* TEST 
+  * Radar based on ESP32-S3 CSI  
 
 
-## SETUP VSCODE Setup  in Window 
+## SETUP VSCODE Setup in Window 
 
 <br/>
 
@@ -112,3 +118,6 @@ esp-csi\examples\esp-radar\console_test\tools> python ./esp_csi_tool.py -p COM4
 * SETUP  
     * WIFI AP SSID and PW Setup and Connect 
 ![](./docs/setup/test_program.png)
+    * TEST 
+      * Radar based on ESP32-S3 CSI  
+      * [Radar Manual](README.md)         

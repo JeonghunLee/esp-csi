@@ -57,25 +57,24 @@ have to use ESP-IDF Termianl , not used Power Shell
 ```ESP-IDF Terminal in Window   
 cd examples\esp-radar\console_test
 esp-csi\examples\esp-radar\console_test> idf.py --version                # Check ESP-IDF Version 
-esp-csi\examples\esp-radar\console_test> idf.py set-target esp32s3       # Setup your CPU  
+esp-csi\examples\esp-radar\console_test> idf.py set-target esp32s3       # Setup your CPU  and create sdkconfig 
 
 ```
 
 <br/>
 
-* Please check your CPU in sdkconfig 
+* Option-Please check your CPU in sdkconfig 
 ```ESP-IDF Terminal in Window
-esp-csi\examples\esp-radar\console_test> idf.py menuconfig               # make sdkconfig based on sdkconfig.defaults and IDF_TARGET in your json 
+esp-csi\examples\esp-radar\console_test> idf.py menuconfig               # edit sdkconfig based on sdkconfig.defaults and IDF_TARGET in your json 
 ```
 
 <br/>
 
-*  Build 
+*  Build and Flash 
 ```ESP-IDF Terminal in Window
 
 esp-csi\examples\esp-radar\console_test> idf.py build
 esp-csi\examples\esp-radar\console_test> idf.py -p COM4 flash -b 921600 # Serial COM4 
-esp-csi\examples\esp-radar\console_test> idf.py -p COM4 monitor      # Serial COM4 
 ```
 
 <br/>

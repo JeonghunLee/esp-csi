@@ -4,6 +4,12 @@
 
 Channel State Information (CSI) is an important parameter that describes the characteristics of a wireless channel, including indicators such as signal amplitude, phase, and signal delay. In Wi-Fi communication, CSI is used to measure the state of the wireless network channel. By analyzing and studying changes in CSI, one can infer physical environmental changes that cause channel state changes, achieving non-contact intelligent sensing. CSI is very sensitive to environmental changes. It can sense not only large movements such as people or animals walking and running but also subtle actions in a static environment, such as breathing and chewing. These capabilities make CSI widely applicable in smart environment monitoring, human activity monitoring, wireless positioning, and other applications.
 
+<br/>
+
+[ESP32-S3 SETUP VSCODE](ESP32-S3_TEST.md)
+
+<br/>
+
 ## Basic Knowledge
 
 To better understand CSI technology, we provide some related basic knowledge documents (to be updated gradually):
